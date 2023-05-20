@@ -5,4 +5,4 @@ https://devopswithdocker.com/
 
 | Part   | Duration |
 | ------ | -------- |
-| Part 1 | 12-      |
+| Part 1 | 2.5h     |
