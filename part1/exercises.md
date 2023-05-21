@@ -108,3 +108,45 @@ see `Dockerfile-18`
 ```
 ❯ docker run -p 8080:8080 web-server
 ```
+
+## Exercise 1.11
+
+see `exercise11/Dockerfile`
+
+```
+❯ docker build . -t spring-example
+❯ docker run -p 8080:8080 spring-example 
+```
+
+## Exercise 1.12
+
+see `exercise12/Dockerfile`
+
+## Exercise 1.13
+
+see `exercise13/Dockerfile`
+
+```
+❯ docker build . -t example-backend
+❯ docker run -p 8080:8080 example-backend 
+```
+
+## Exercise 1.14
+
+### Frontend
+
+see `exercise14/frontend/Dockerfile`
+
+```
+❯ docker build . -t example-frontend
+❯ docker run -p 5000:5000 example-frontend
+```
+
+### Backend
+
+see `exercise14/backend/Dockerfile`
+
+```
+❯ docker build . -t example-backend
+❯ docker run -p 8080:8080 example-backend 
+```
