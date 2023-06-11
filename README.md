@@ -9,4 +9,4 @@ see `part1/exercises.md`
 
 | Part   | Duration |
 | ------ | -------- |
-| Part 1 | 4.5h     |
+| Part 1 | 9h       |

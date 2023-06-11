@@ -150,3 +150,30 @@ see `exercise14/backend/Dockerfile`
 ❯ docker build . -t example-backend
 ❯ docker run -p 8080:8080 example-backend 
 ```
+
+## Exercise 1.15
+
+see `exercise15/Dockerfile`
+
+link to the docker hub repository: https://hub.docker.com/r/devopswithdocker202306/node-example
+
+## Exercise 1.16
+
+link to the running application: https://sparkling-feather-4884.fly.dev/info
+
+following endpoints are available:
+
+```
+GET /api/persons
+GET /api/persons/{id}
+POST /api/persons
+DELETE /api/persons/{id}
+```
+
+the deployment was done with the `flyctl` tool and the following commands:
+
+```
+fly launch -> generate the app configuration
+fly wireguard websockets enable -> was needed to make the building completing successfully
+fly deploy -> deploys the application
+```
